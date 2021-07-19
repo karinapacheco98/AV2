@@ -1,0 +1,85 @@
+body {
+    margin:40px;
+}
+
+h3{
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+    margin: 0;
+}
+
+ul li{
+    text-align: center;
+    display: inline;
+}
+
+ul li a{
+    padding: 4px 40px;
+    display: inline-block;
+    
+    color: black;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color: rgba(179, 182, 165, 0.822);
+    color: white;
+}
+
+.modalAlterar{
+    width: 400px;
+    height: 100px;
+    background-color: #d3d3d3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    text-align: center;
+    padding: 50px 5px 5px 5px;
+}
+
+#formAlterar{
+    display: none;
+}
+
+/*.modalExcluir{
+    width: 500px;
+    height: 500px;
+    background-color: #d3d3d3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    text-align: center;
+}*/
+
+.modalIncluir1{
+    width: 400px;
+    height: 100px;
+    background-color: #d3d3d3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    text-align: center;
+    padding: 50px 5px 5px 5px;
+}
+
+.modalIncluir2{
+    width: 400px;
+    height: 400px;
+    background-color: #d3d3d3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    text-align: center;
+    padding: 50px 5px 5px 5px;
+}
